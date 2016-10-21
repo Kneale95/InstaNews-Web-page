@@ -4,7 +4,7 @@ $('#mySelect').on('change', function(event){
   event.preventDefault();
   var selected = $(this).val();
 $('.article-list').empty();
-$('.img-logo').css({ height: "50%"});
+$('.img-logo').css({ height: "75%", width: "75%" });
 $('.main-header').css({ height: "auto" }),
 $('.loader').css('display','block')
 $.ajax({
